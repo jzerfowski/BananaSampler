@@ -1,6 +1,13 @@
 # Banana Sampler
 This is the repository for a silly one-day project I built to prove my concept for a more advanced MIDI-Keyboard. Here, two bananas are used as capacitive touch sensors to trigger a serial MIDI signal to a computer which then plays cartoonish banana-peel-slipping-samples.
 
+## Examples
+
+![Banana Sampler Example Image](examples/banana_sampler_image.jpg "Banana Sampler Example Image")
+This board is exactly like an Arduino UNO, it only contains optional parts which are turned off in this project.
+
+[Video](examples/banana_sampler_video.mp4)
+
 ## Resources
 ### Tutorials
 There have been many people before me who did a very similar thing and documented their efforts:
