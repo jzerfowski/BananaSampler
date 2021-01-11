@@ -24,8 +24,7 @@ class CapSenseButton {
 
     private:
         int state;
-
-
+        
 };
  
 #endif

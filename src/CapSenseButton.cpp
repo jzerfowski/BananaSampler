@@ -6,6 +6,7 @@ CapSenseButton::CapSenseButton(uint8_t sendPin, uint8_t receivePin, uint8_t samp
         this->samples = samples;
         this->threshold = threshold;
         this->capacitiveSensor = CapacitiveSensor(sendPin, receivePin);
+        this->state = NOT_PRESSED;
 }
 
 long CapSenseButton::getCapacitance() {
